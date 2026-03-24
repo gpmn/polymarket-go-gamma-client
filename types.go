@@ -544,7 +544,7 @@ type Event struct {
 	Restricted          bool           `json:"restricted"`
 	Liquidity           float64        `json:"liquidity,omitempty"`
 	Volume              float64        `json:"volume,omitempty"`
-	OpenInterest        int            `json:"openInterest"`
+	OpenInterest        float64        `json:"openInterest"`
 	CreatedAt           NormalizedTime `json:"createdAt"`
 	UpdatedAt           NormalizedTime `json:"updatedAt,omitempty"`
 	Competitive         float64        `json:"competitive,omitempty"`
